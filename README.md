@@ -1,24 +1,4 @@
-# README
+# ADDRESS BOOK
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple address book app built with Rails and Bootstrap, using the Devise gem to handle user authentication. The intent behind this app was to create a web-based, password-protected version of the family address book spreadsheet I've kept for many years, so when family members inevitably text me for others' addresses (knowing I kept the spreadsheet), I can instead give them credentials to this site. Much simpler, particularly during Christmas card season!
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
