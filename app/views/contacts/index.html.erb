@@ -2,36 +2,34 @@
 <table class="table table-dark table-hover">
   <thead>
     <tr>
-      <th>First name</th>
-      <th>Last name</th>
+      <th>Name</th>
       <th>Address</th>
       <th>Phone</th>
       <th>Email</th>
       <th>Other</th>
-      <th colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
     <% @contacts.each do |contact| %>
+    <% if contact.user == current_user %>
       <tr>
-        <td><%= contact.first_name %></td>
-        <td><%= contact.last_name %></td>
+        <td>
+          <%= link_to contact.first_name + ' ' + contact.last_name, contact %>
+        </td>
         <td><%= contact.address %></td>
         <td><%= contact.phone %></td>
         <td><%= contact.email %></td>
         <td><%= contact.other %></td>
-        <td><%= link_to 'Show', contact %></td>
-        <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
-        <td><%= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>
 
 <br>
 
-<%= link_to 'New Contact', new_contact_path, class:"btn btn-outline-dark" %>
+<%= link_to 'Create New Contact', new_contact_path, class:"btn btn-outline-dark" %>
 <% else %>
-<h2>Please sign in to see contacts.</h2>
+<h3>Welcome to your web-based Address Book! <br/>Please sign in to see your contacts.</h3>
 <% end %>
