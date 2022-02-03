@@ -12,6 +12,7 @@
   Email: <%= @contact.email %> <br/>
   Other Info: <%= @contact.other %>
   </p>
+  <%= link_to 'Create New Contact', new_contact_path, class:"btn btn-outline-dark" %>
   <%= link_to 'Edit Contact', edit_contact_path(@contact), class:"btn btn-dark" %> 
   <%= link_to 'Delete Contact', @contact, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %>
   <%= link_to 'Back Home', contacts_path, class:"btn btn-dark" %>
