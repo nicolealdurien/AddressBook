@@ -25,7 +25,7 @@
 
 * **Languages/Tools Used:**
 
-  Ruby/Rails, Bootstrap, HTML, CSS, SQLite, Heroku
+  Ruby/Rails, Bootstrap, JavaScript, SCSS, HTML, CSS, SQLite, Heroku
 
 - **Developer:**
 
