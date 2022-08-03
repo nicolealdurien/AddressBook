@@ -11,9 +11,7 @@
   Email: guest@guestaccount.com<br />
   Password: guest123
 
-<br />
-
-- **Purpose of the app:** <br/><br/>
+- **Purpose of the app:**
 
   This is a simple address book app built with Rails and Bootstrap, using the Devise gem to handle user authentication.
 
@@ -26,13 +24,17 @@
   Users can create an address book visible only to them. They can add new contacts, edit existing contacts, or delete contacts.
 
 * **Languages/Tools Used:**
+
   Ruby/Rails, Bootstrap, HTML, CSS, SQLite, Heroku
 
 - **Developer:**
+
   [Nicole Aldurien](https://github.com/nicolealdurien).
 
 * **Screenshot of Update Contact Page:**
+
   ![](https://github.com/nicolealdurien/AddressBook/blob/main/app/assets/images/update_contact.png?raw=true)
 
 * **Screenshot of Edit Profile Page:**
+
   ![](https://github.com/nicolealdurien/AddressBook/blob/main/app/assets/images/edit_profile.png?raw=true)
