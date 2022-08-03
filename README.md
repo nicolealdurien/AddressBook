@@ -7,7 +7,7 @@
 
   (Please be aware, this site is currently hosted on the free tier of Heroku. It may take up to 15 seconds to initially load if its server is asleep.)
 
-  To see the site in action with a few fictional addresses, sign in using the following credentials:
+  To see the site in action with a few fictional addresses, sign in using the following credentials:<br />
   Email: guest@guestaccount.com<br />
   Password: guest123
 
@@ -29,7 +29,7 @@
 
 - **Developer:**
 
-  [Nicole Aldurien](https://github.com/nicolealdurien).
+  [Nicole Aldurien](https://github.com/nicolealdurien)
 
 * **Screenshot of Update Contact Page:**
 
